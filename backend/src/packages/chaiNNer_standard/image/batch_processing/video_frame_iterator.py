@@ -166,7 +166,7 @@ def VideoFrameIteratorFrameWriterNode(
 
 @batch_processing_group.register(
     schema_id="chainner:image:video_frame_iterator",
-    name="Video Frame Iterator",
+    name="Video Frame Batch",
     description="Iterate over all frames in a video, and write to a video buffer.",
     icon="MdVideoCameraBack",
     node_type="iterator",

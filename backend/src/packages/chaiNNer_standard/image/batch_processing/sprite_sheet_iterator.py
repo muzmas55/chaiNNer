@@ -49,7 +49,7 @@ def ImageSpriteSheetIteratorAppendImageNode(
 
 @batch_processing_group.register(
     schema_id="chainner:image:spritesheet_iterator",
-    name="Spritesheet Iterator",
+    name="Spritesheet Batch",
     description="Iterate over sub-images in a single image spritesheet.",
     icon="MdLoop",
     node_type="iterator",

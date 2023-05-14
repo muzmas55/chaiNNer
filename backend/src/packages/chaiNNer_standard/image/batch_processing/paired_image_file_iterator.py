@@ -68,7 +68,7 @@ def ImageFileIteratorLoadImageNodeA(
 
 @batch_processing_group.register(
     schema_id="chainner:image:paired_image_file_iterator",
-    name="Image Pairs Iterator",
+    name="Image Pairs Batch",
     description="Iterate over all files in two directories and run the provided nodes on the image files together. This can be useful for things like making comparisons of already upscaled content.",
     icon="MdLoop",
     node_type="iterator",

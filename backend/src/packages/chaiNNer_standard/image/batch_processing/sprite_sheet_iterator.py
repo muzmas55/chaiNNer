@@ -17,7 +17,7 @@ SPRITESHEET_ITERATOR_OUTPUT_NODE_ID = "chainner:image:spritesheet_iterator_save"
 
 @batch_processing_group.register(
     schema_id=SPRITESHEET_ITERATOR_INPUT_NODE_ID,
-    name="Load Image (Iterator)",
+    name="Load Image (Batch)",
     description="",
     icon="MdSubdirectoryArrowRight",
     node_type="iteratorHelper",

@@ -24,7 +24,7 @@ NCNN_ITERATOR_NODE_ID = "chainner:ncnn:model_iterator_load"
 
 @batch_processing_group.register(
     schema_id=NCNN_ITERATOR_NODE_ID,
-    name="Load Model (Iterator)",
+    name="Load Model (Batch)",
     description="",
     icon="MdSubdirectoryArrowRight",
     inputs=[IteratorInput().make_optional()],

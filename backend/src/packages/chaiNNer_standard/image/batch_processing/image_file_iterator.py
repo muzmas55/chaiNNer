@@ -25,7 +25,7 @@ IMAGE_ITERATOR_NODE_ID = "chainner:image:file_iterator_load"
 
 @batch_processing_group.register(
     schema_id=IMAGE_ITERATOR_NODE_ID,
-    name="Load Image (Iterator)",
+    name="Load Image (Batch)",
     description="",
     icon="MdSubdirectoryArrowRight",
     node_type="iteratorHelper",

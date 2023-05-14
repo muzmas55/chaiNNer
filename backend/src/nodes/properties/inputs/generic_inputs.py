@@ -407,7 +407,7 @@ class ColorInput(BaseInput):
 
 def IteratorInput():
     """Input for showing that an iterator automatically handles the input"""
-    return BaseInput("IteratorAuto", "Auto (Iterator)", has_handle=False)
+    return BaseInput("IteratorAuto", "Auto (Batch)", has_handle=False)
 
 
 def VideoTypeDropdown() -> DropDownInput:
